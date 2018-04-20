@@ -22,6 +22,7 @@ public class TeamMemberLogger {
 	}
 	private void addAndreas(){
 		TeamMember andreas = new TeamMember("Andreas","Wandert");
+                this.members.add(andreas);
 	}
 	
 	private void addMemberA() {
