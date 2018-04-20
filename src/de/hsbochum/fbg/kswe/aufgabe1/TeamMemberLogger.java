@@ -21,6 +21,7 @@ public class TeamMemberLogger {
 	}
 
 	private void addMemberA() {
+            this.members.add(new TeamMember ("Patrick", "Kaufels"));
 	}
 
 	private void addMemberB() {
