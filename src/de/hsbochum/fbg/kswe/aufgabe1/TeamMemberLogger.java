@@ -18,8 +18,12 @@ public class TeamMemberLogger {
 		
 		addMemberA();
 		addMemberB();
+		addAndreas();
 	}
-
+	private void addAndreas(){
+		TeamMember andreas = new TeamMember("Andreas","Wandert");
+	}
+	
 	private void addMemberA() {
 	}
 
