@@ -18,8 +18,13 @@ public class TeamMemberLogger {
 		
 		addMemberA();
 		addMemberB();
+		addAndreas();
 	}
-
+	private void addAndreas(){
+		TeamMember andreas = new TeamMember("Andreas","Wandert");
+                this.members.add(andreas);
+	}
+	
 	private void addMemberA() {
             this.members.add(new TeamMember ("Patrick", "Kaufels"));
 	}
